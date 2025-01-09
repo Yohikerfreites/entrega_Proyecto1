@@ -1,0 +1,29 @@
+/* fuentes */
+@font-face {
+  font-family: "Poppinsregular";
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saiyanfont";
+  src: url(./assets/fonts/Saiyan_Sans/Saiyan-Sans.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Saiyanfont";
+  font-size: 50pt;
+
+
+}
