@@ -33,11 +33,12 @@
 nav {
   background-color: rgba(255, 0, 0, 0.767);
   box-shadow: 0 2px 4px rgb(73, 72, 72);
+  width: 100%;
   display: flex;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
+  gap: 10px;
 
 }
 
@@ -171,9 +172,9 @@ aside h2 {
   text-align: center;
   font-weight: bolder;
   font-size: 24pt;
-  background-color: rgba(255, 0, 0, 0.767);
+  /* background-color: rgba(255, 0, 0, 0.767);
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 /* Productos */
@@ -451,4 +452,24 @@ footer h3 {
   padding: 20px 0;
   margin-top: 0;
   text-align: center;
+}
+
+
+@media (max-width: 700px) {
+  .aside-main {
+    display: block;
+    width: 100%;
+  }
+
+  .info-grid {
+    display: block;
+  }
+
+  footer {
+    display: block;
+  }
+
+  footer ul {
+    width: 400px;
+  }
 }
