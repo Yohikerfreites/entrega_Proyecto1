@@ -131,7 +131,6 @@ h1 b {
     "header header header"
     "aside main main"
     "footer footer footer";
-  grid-template-columns: 20% 40% 40%;
   grid-template-rows: auto 1fr auto;
 }
 
