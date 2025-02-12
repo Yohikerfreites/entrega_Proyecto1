@@ -1,0 +1,60 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fuentes */
+@font-face {
+  font-family: "Poppinsregular";
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saiyanfont";
+  src: url(./assets/fonts/Saiyan_Sans/Saiyan-Sans.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* Variables */
+:root {
+  --rtc-primary-color: rgb(245, 241, 6);
+  --rtc-secondary-color: rgb(255, 0, 0);
+}
+
+h1 {
+  font-family: "Saiyanfont";
+  font-size: 80pt;
+  text-align: center;
+  margin: 30px 30px;
+  height: auto;
+  padding: 20px;
+  color: var(--rtc-secondary-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 0 0 10px black;
+}
+
+h1 b {
+  color: var(--rtc-primary-color);
+}
+
+p {
+  font-family: "Poppinsregular";
+  text-align: justify;
+}
+
+h2 {
+  font-family: "Poppinsregular";
+  text-align: center;
+  font-weight: bolder;
+  font-size: 24pt;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

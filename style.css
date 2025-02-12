@@ -418,6 +418,11 @@ ul li {
   padding: 5px;
 }
 
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
 footer ul>li:first-child {
   font-family: "Saiyanfont";
   font-weight: bolder;
